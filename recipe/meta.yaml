@@ -1,5 +1,5 @@
 {% set name = "types-xmltodict" %}
-{% set version = "1.0.1.20250920" %}
+{% set version = "1.0.1.20260408" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3a2a97b7c3247251d715452e7bd86b9f0567fb91e407164344c93390d9bbbe88
+  sha256: 64a079b1c0fc09197246c905d54cccb7c86fd49c834b5f6265e84dfaf200f5b7
 
 build:
   noarch: python
